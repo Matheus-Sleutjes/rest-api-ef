@@ -6,7 +6,7 @@ Rest API é um projeto que criei com o objetivo de aprender mais sobre .NET 8 e 
 
 ## Como executar
 
-Pré requisitos Docker e SDK .NET 8.0 (caso queira debugar).
+Pré requisitos **Docker** e **SDK .NET 8.0** (caso queira debugar).
 
 Clone o projeto com: `https://github.com/Matheus-Sleutjes/rest-api.git`
 
@@ -18,6 +18,6 @@ Pronto! Agora é só se divertir!
 
 ## Considerações
 
-Caso queira o codigo da Minimal API com EntityFramework em .NET 8.0 [Clique aqui](https://github.com/Matheus-Sleutjes/minimal-api)
+Caso queira o codigo da Minimal API com EntityFramework em .NET 8.0 [clique aqui](https://github.com/Matheus-Sleutjes/minimal-api)
 
 Feito com carinho por Matheus Sleutjes
