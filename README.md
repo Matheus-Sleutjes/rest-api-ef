@@ -12,10 +12,12 @@ Clone o projeto com: `https://github.com/Matheus-Sleutjes/rest-api.git`
 
 Acesse o projeto, e execute: `docker compose up --build -d`
 
-Acesse a URL para a documentação: `http://localhost:8080/swagger/index.html` ou no [Swagger](http://localhost:8080/swagger/index.html)
+Acesse a URL para a documentação: `http://localhost:8080/swagger/index.html` ou [clique aqui](http://localhost:8080/swagger/index.html) para ser redirecionado para o swagger
 
 Pronto! Agora é só se divertir!
 
-## Testing
+## Considerações
+
+Caso queira o codigo da Minimal API com EntityFramework em .NET 8.0 [Clique aqui](https://github.com/Matheus-Sleutjes/minimal-api)
 
 Feito com carinho por Matheus Sleutjes
