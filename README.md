@@ -18,6 +18,6 @@ Pronto! Agora é só se divertir!
 
 ## Considerações
 
-Caso queira o codigo da Minimal API com EntityFramework em .NET 8.0 [clique aqui](https://github.com/Matheus-Sleutjes/minimal-api)
+Caso queira o codigo da Minimal API com EntityFramework em .NET 8.0 [clique aqui](https://github.com/Matheus-Sleutjes/minimal-api-ef)
 
 Feito com carinho por Matheus Sleutjes
