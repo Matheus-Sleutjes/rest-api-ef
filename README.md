@@ -18,6 +18,8 @@ Pronto! Agora é só se divertir!
 
 ## Considerações
 
+Caso queira rodar em modo Debug voce pode executar `docker run --name bd-postgres -e POSTGRES_PASSWORD=admin -p 5432:5432 -d postgres` para subir uma instância de BD
+
 Caso queira o codigo da Minimal API com EntityFramework em .NET 8.0 [clique aqui](https://github.com/Matheus-Sleutjes/minimal-api-ef)
 
 Feito com carinho por Matheus Sleutjes

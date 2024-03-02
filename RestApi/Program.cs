@@ -5,7 +5,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddTransient<ILivroService, LivroService>();
 
-builder.Services.AddDbContext<LivrosContext>();
+builder.Services.AddDbContext<LivrosContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))); 
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
