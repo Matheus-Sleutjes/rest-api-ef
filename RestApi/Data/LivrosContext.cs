@@ -10,6 +10,7 @@ namespace RestApi.Data
         public DbSet<Livro> Livros { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
-        => optionsBuilder.UseNpgsql("Host=localhost;Port=5000;Database=livros-db;Username=postgres;Password=admin");
+        // => optionsBuilder.UseNpgsql("Host=db;Port=5000;Database=livros-db;Username=postgres;Password=admin;CommandTimeout=120;");
+        => optionsBuilder.UseNpgsql("Host=db;Database=livros-db;Username=postgres;Password=admin;CommandTimeout=120;");
     }
 }

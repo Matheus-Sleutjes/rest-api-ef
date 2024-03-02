@@ -13,11 +13,8 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+app.UseSwagger();
+app.UseSwaggerUI();
 
 //Cria banco e roda migration
 var serviceScope = app.Services.GetService<IServiceScopeFactory>().CreateScope();

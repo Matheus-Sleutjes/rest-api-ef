@@ -15,5 +15,11 @@ namespace RestApi.Controllers
         {
             return Ok("Hello world!");
         }
+
+        [HttpGet("{id}")]
+        public IActionResult Find(int id)
+        {
+            return Ok(id);
+        }
     }
 }
